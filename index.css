@@ -46,7 +46,7 @@ h1 {
 }
 
 header {
-    padding: var(--spacing);
+    /* padding: var(--spacing); */
     background: #fff;
     height: 100dvh;
 }
@@ -95,7 +95,10 @@ ul span:hover,
     );
 }
 
-nav span {cursor:pointer;}
+nav span {
+    cursor:pointer;
+    margin-right: 70px;
+}
 
 .brand {
     text-transform: capitalize;
