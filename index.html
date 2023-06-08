@@ -7,14 +7,16 @@
     <title>Document title</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+    <link rel="stylesheet" href="./public/css/style.css">
 </head>
 <body>
     <header>
         <div class="container">
             <nav>
                 <a href="index.html" class="brand">
-                    <img src="./img/logo.png" alt="" style="height: 20px; width: 20px; margin-left: 200px;">
+                    <img src="./public/img/logo.png" alt="" style="height: 90px; width: 90px; margin-left: 70px;">
                 </a>
             
             <ul class="menu">
@@ -63,7 +65,7 @@
                 </div>
                 <div class="decoration-right anim"></div>
                 <div class="overlay anim"></div>
-                <img src="./img/img1.jpg"
+                <img src="./public/img/img1.jpg"
                 alt="img" class="slider-img" />
             </div>
             <div class="text">
@@ -82,13 +84,15 @@
                     </p>
                 </div>
             </div>
-            <ul class="social">
+            <!-- redes sociales -->
+        <!--     <ul class="social">
                 <li><a href="#">facebook</a></li>
                 <li><a href="#">facebook</a></li>
                 <li><a href="#">facebook</a></li>
-            </ul>
+            </ul> -->
         </div>
-        <nav class="header-bottom">
+        <!--  -->
+      <!--   <nav class="header-bottom">
             <div class="controls">
                 <span class="prev">PREV</span>
                 <span class="next">NEXT</span>
@@ -102,9 +106,124 @@
             </ul>
             <span>Massy, Paris</span>
         </nav>
-        </div>
+        </div> -->
     </header>
+
+
+    <!-- SECTION NOSOTROS -->
+
+    <div class="text">
+        <div>
+            <h1>
+                Colaboradores <br />
+                -
+            </h1>
+        </div>
+    </div>
+    <div class="blog-slider">
+        
+    <div class="blog-slider__wrp swiper-wrapper">
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          <img src="./public/img/img2.jpg" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <span class="blog-slider__code">08 February 2022</span>
+          <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+          <div class="blog-slider__text">Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Eos esse vero cumque pariatur.</div>
+            <a href="#" class="blog-slider__button">READ MORE</a>
+        </div>
+      </div>
+
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          <img src="./public/img/img3.jpg" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <span class="blog-slider__code">08 February 2022</span>
+          <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+          <div class="blog-slider__text">Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Eos esse vero cumque pariatur.</div>
+            <a href="#" class="blog-slider__button">READ MORE</a>
+        </div>
+      </div>
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+          <img src="./public/img/img4.jpg" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <span class="blog-slider__code">08 February 2022</span>
+          <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+          <div class="blog-slider__text">Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Eos esse vero cumque pariatur.</div>
+            <a href="#" class="blog-slider__button">READ MORE</a>
+        </div>
+      </div>
+    </div> 
+    <div class="blog-slider__pagination"></div>
+  </div>
+
+
+  <footer class="footer">
+    <div class="container-fluid contenedor-fluid">
+        <div class="row contenedor">
+            <div class="navegacion">
+                <h4>Navegación</h4>
+                <div>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/products/category/1">Escolar</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="/products/category/2">Artística</a></li>
+                        <li><a href="/products/category/3">Oficina</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="border">
+            <div class="pagos">
+                <h4>Medios de pago</h4>
+                <div class="pagos-images">
+                    <div class="imagen">
+                        <img src="/images/footer/ml.png" alt="Mercado Pago">
+                    </div>
+                    <div class="imagen">
+                        <img src="/images/footer/mastercard.png" alt="Matercard">
+                    </div>
+                    <div class="imagen">
+                        <img src="/images/footer/visa.png" alt="Visa">
+                    </div>
+                </div>
+            </div>
+            <hr class="border">
+            <div class="contacto">
+                <h4>Contacto</h4>
+                <div>
+                    <ul>
+                        <li><a href="/contact">Sucursales</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Teléfono: 011-3142592</a></li>
+                        <li><a href="">Email: artisticadali@gmail.com</a></li>
+                    </ul>
+                </div>
+                <ul class="social">
+                    <li><a href=""><img src="/images/footer/whatsapp.svg" alt="whatsapp"></a></li>
+                    <li><a href=""><img src="/images/footer/twitter.svg" alt="twitter"></a></li>
+                    <li><a href=""><img src="/images/footer/facebook.svg" alt="facebook"></a></li>
+                    <li><a href=""><img src="/images/footer/instagram.svg" alt="instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+  
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
     
-    <script src="index.js"></script>
+    <script src="./public/js/headerHome.js"></script>
+    <script src="./public/js/nosotros.js"></script>
 </body>
 </html>
