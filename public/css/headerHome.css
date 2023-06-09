@@ -1,5 +1,5 @@
 :root {
-    --accent: #0A2B32;
+    --accent: #3B6978;
     --spacing: 2.5em;
 }
 
@@ -83,7 +83,7 @@ ul a, ul span {
     background-size: 0 2px;
     padding-bottom: 10px;
     background-position: 50% bottom;
-    color: #fff;
+    color: #00c48e9e;
 }
 
 ul a:hover,
