@@ -195,7 +195,7 @@ nav li {
     bottom: 0;
     right: -8%;
     width: 16%;
-    height: 12em;
+    height: 11em;
     animation: slide2;
 }
 .overlay {
@@ -218,6 +218,7 @@ nav li {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5%;
 }
 
 .text > div {
@@ -259,6 +260,36 @@ nav li {
 .controls span {
     margin: 0 0.5em;
 }
+
+/*========== SERVICES ==========*/
+.services__container{
+    row-gap: 2.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+  
+  .services__content{
+    text-align: center;
+  }
+  
+  .services__img{
+    width: 64px;
+    height: 64px;
+    fill: var(--first-color);
+    margin-bottom: var(--mb-2);
+  }
+  
+  .services__title{
+    font-size: var(--h3-font-size);
+    color: var(--title-color);
+    margin-bottom: var(--mb-1);
+  }
+  
+  .services__description{
+    padding: 0 1.5rem;
+  }
+  
+  
+
  /* animations */
 @keyframes slide1 {
     0% {height: 0;}
@@ -343,3 +374,5 @@ nav li {
 
 
 /*  */
+
+

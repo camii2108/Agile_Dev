@@ -13,21 +13,28 @@
     <link href="https://fonts.googleapis.com/css?family=Parisienne&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./public/css/style.css">
+            <!--========== BOX ICONS ==========-->
+            <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet"> 
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+            <link rel="website icon" type="png" href="/assets/img/logo.png">
+        
 </head>
 <body>
-    <header>
+    <header id="about">
         <div class="container">
             <nav>
                 <a href="index.html" class="brand">
-                    <img src="./public/img/logo.png" alt="" style="height: 90px; width: 90px; margin-left: 70px;">
+                    <img src="./public/img/logo/logo.png" alt="" style="height: 90px; width: 90px; margin-left: 70px;">
                 </a>
             
             <ul class="menu">
                 <li>
-                    <a href="#">Apartments</a>
+                    <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#">Philosophy</a>
+                    <a href="#Galeryporfolio">Galery porfolio</a>
                 </li>
                 <li>
                     <a href="#">Company</a>
@@ -36,21 +43,21 @@
                     <a href="#">Design</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#footer">Contact</a>
                 </li>
 
                 <li>
                     <form class="form-mobile">
-                        <input type="text" 
+                        <input 
                                class="search" 
-                               placeholder="SEARCH" />
+                                />
                     </form>
                 </li>
             </ul>
             <form>
-                <input type="text" 
+                <input 
                        class="search" 
-                        placeholder="SEARCH" />
+                         />
             </form>
             <button class="menu-btn">
                 <span class="material-symbols-outlined">
@@ -68,22 +75,17 @@
                 </div>
                 <div class="decoration-right anim"></div>
                 <div class="overlay anim"></div>
-                <img src="./public/img/img1.jpg"
+                <img src="./public/img/home.jpg"
                 alt="img" class="slider-img" />
             </div>
             <div class="text">
                 <div>
                     <h1>
-                        Modern <br />
-                        -Minimal
+                        Digitaliza <br />
+                        -        tu exito
                     </h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, 
-                        adipisicing elit. Atque laboriosam obcaecati 
-                        dolore sequi repellat ducimus quo mollitia 
-                        cupiditate animi alias excepturi, ad, amet 
-                        illum nostrum corporis dicta eligendi 
-                        blanditiis aut?
+                        "En Agil, convertimos tus ideas en realidades digitales cautivadoras. Somos un equipo apasionado de diseñadores web y desarrolladores comprometidos en ofrecerte soluciones personalizadas y ágiles. Desde impresionantes sitios web corporativos hasta tiendas en línea cautivadoras, nos encargamos de crear una presencia en línea que dejará una huella duradera. Con nuestra combinación única de diseño creativo y tecnología de vanguardia, te ayudamos a destacar en el competitivo mundo digital. Únete a nosotros y descubre cómo podemos llevar tu presencia en línea al siguiente nivel."
                     </p>
                 </div>
             </div>
@@ -112,144 +114,245 @@
         </div> -->
     </header>
 
+    <section class="services section bd-container" id="services">
+        <h2 class="section-title" style="text-align: center;">Nuestros increibles servicios</h2>
+
+        <div class="services__container  bd-grid">
+
+            <div class="services__content">
+                <svg class="services__img"width="64" height="64" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                        <path d="M12 2C6.579 2 2 6.579 2 12s4.579 10 10 10 10-4.579 10-10S17.421 2 12 2zm0 5c1.727 0 3 1.272 3 3s-1.273 3-3 3c-1.726 0-3-1.272-3-3s1.274-3 3-3zm-5.106 9.772c.897-1.32 2.393-2.2 4.106-2.2h2c1.714 0 3.209.88 4.106 2.2C15.828 18.14 14.015 19 12 19s-3.828-.86-5.106-2.228z" />
+                  </svg>
+                    </g>
+                </defs>
+                    
+                    
+                <h3 class="services__title">INICIOS</h3>
+                <p class="services__description">"Iniciamos con pasión y visión, Agil es un emprendimiento freelance dedicado a convertir ideas en éxito digital. Con determinación y experiencia, hemos construido relaciones sólidas y entregado soluciones excepcionales. Como líderes en diseño web y desarrollo, estamos listos para impulsar tu presencia en línea hacia el éxito".</p>
+            </div>
+
+            <div class="services__content">
+                <svg class="services__img"width="64" height="64" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                        <svg xmlns="http://www.w3.org/2000/svg" >
+                            <path d="M8 12.052c1.995 0 3.5-1.505 3.5-3.5s-1.505-3.5-3.5-3.5-3.5 1.505-3.5 3.5 1.505 3.5 3.5 3.5zM9 13H7c-2.757 0-5 2.243-5 5v1h12v-1c0-2.757-2.243-5-5-5zm11.294-4.708-4.3 4.292-1.292-1.292-1.414 1.414 2.706 2.704 5.712-5.702z"></path></svg>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0">
+                    <rect width="64" height="64" fill="white"/>
+                    </clipPath>
+                    </defs>
+                </svg>
+                <h3 class="services__title">¿PORQUÉ ELEGIRNOS?</h3>
+                <p class="services__description">
+                    <li style="    color: #949494;
+    font-size: 0.8em;
+    line-height: 30px;
+    letter-spacing: 1px;">Experiencia y profesionalismo en diseño web y desarrollo.</li>
+                    <li style="    color: #949494;
+    font-size: 0.8em;
+    line-height: 30px;
+    letter-spacing: 1px;">Enfoque personalizado para adaptarnos a tus necesidades y metas.</li>
+                    <li style="    color: #949494;
+    font-size: 0.8em;
+    line-height: 30px;
+    letter-spacing: 1px;">Diseño creativo y funcionalidad de vanguardia.</li>
+                    <li style="    color: #949494;
+    font-size: 0.8em;
+    line-height: 30px;
+    letter-spacing: 1px;">Innovación constante para mantenernos actualizados en el mundo digital.</li>
+                    <li style="    color: #949494;
+    font-size: 0.8em;
+    line-height: 30px;
+    letter-spacing: 1px;">Compromiso total con tu éxito y satisfacción.</li>
+                    <li style="    color: #949494;
+    font-size: 0.8em;
+    line-height: 30px;
+    letter-spacing: 1px;">Cumplimiento de plazos y presupuestos establecidos.</li>
+                    
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <!-- SECTION SLIDER SERVICIOS -->
+    <div class="wrapper" >
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel">
+          <li class="card">
+            <div class="img"><img  src="/public/img/servicios/design.png" alt="img" draggable="false"></div>
+            <h2>Transformando ideas en experiencias visuales impactantes.</h2>
+            <span>Diseño Web</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="/public/img/servicios/desarrolo.png" alt="img" draggable="false"></div>
+            <h2>Soluciones digitales que cautivan y conectan.</h2>
+            <span>Desarrollo Web</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="/public/img/servicios/ladingPage.png" alt="img" draggable="false"></div>
+            <h2>Tu puerta de entrada al éxito en línea.</h2>
+            <span>Landing Page</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="/public/img/servicios/ecommerce.png" alt="img" draggable="false"></div>
+            <h2>La clave para expandir tu negocio en el mundo digital.</h2>
+            <span>E.commerce</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="images/img-5.jpg" alt="img" draggable="false"></div>
+            <h2>Kristina Zasiadko</h2>
+            <span>Bank Manager</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="images/img-6.jpg" alt="img" draggable="false"></div>
+            <h2>Donald Horton</h2>
+            <span>App Designer</span>
+          </li>
+        </ul>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>
+  
+
 
     <!-- SECTION CPORTFOLIO -->
+    <section id="Galeryporfolio">
    
-    <div class="text">
-        <div>
-            <h1>
-                Galery <br />
-                -Portfolio
-            </h1>
+        <div class="text">
+            <div>
+                <h1>
+                    Galery <br />
+                    -Portfolio
+                </h1>
+            </div>
         </div>
-    </div>
 
-    <div class="filters filter-button-group">
-        <ul>
-            <li class="active"><a href="javascript:void(0);" data-filter="*">All</a></li>
-            <li><a href="javascript:void(0);" data-filter="bike">Bike</a></li>
-            <li><a href="javascript:void(0);" data-filter="bus">Bus</a></li>
-            <li><a href="javascript:void(0);" data-filter="car">Car</a></li>
-        </ul>
-    </div>
-        <div id="container" class="isotope">
-        
-            <div class="grid-item" data-filter="bike">
-            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1WcNDZ4BGtgDsJF7guFJBqdsjOi28sTsk&export=download">
-            <img src="https://drive.google.com/u/0/uc?id=1WcNDZ4BGtgDsJF7guFJBqdsjOi28sTsk&export=download">
-            </a>
-            <div class="overlay">Bike</div>
-            </div>
-            
-            
-            <div class="grid-item" data-filter="car">
-            <a class="popupimg" href="./public/img/porfolio/zapatillas.png">
-            <img src="./public/img/porfolio/zapatillas.png">
-            </a>
-            <div class="overlay">Car</div>
-            </div>
-            
-            
-            <div class="grid-item" data-filter="bike">
-            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1Izd6KrrgNXGmAV7QgQRpd7WTM-AfkE6x&export=download">
-            <img src="https://drive.google.com/u/0/uc?id=1Izd6KrrgNXGmAV7QgQRpd7WTM-AfkE6x&export=download">
-            </a>
-            <div class="overlay">Bike</div>
-            </div>
-            
-            
-            <div class="grid-item" data-filter="car">
-            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=14EqC2fP0xhNfpHmjb3CO_Ax8pe28NJU9&export=download">
-            <img src="https://drive.google.com/u/0/uc?id=14EqC2fP0xhNfpHmjb3CO_Ax8pe28NJU9&export=download">
-            </a>
-            <div class="overlay">Car</div>
-            </div>
-            
-            
-            <div class="grid-item" data-filter="bike">
-            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1WcNDZ4BGtgDsJF7guFJBqdsjOi28sTsk&export=download">
-            <img src="https://drive.google.com/u/0/uc?id=1WcNDZ4BGtgDsJF7guFJBqdsjOi28sTsk&export=download">
-            </a>
-            <div class="overlay">Bike</div>
-            </div>
-            
-            
-            <div class="grid-item" data-filter="bus">
-            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1xBNwn9Sgedoy3sAVrfuDPYNgl-ArlVaZ&export=download">
-            <img src="https://drive.google.com/u/0/uc?id=1xBNwn9Sgedoy3sAVrfuDPYNgl-ArlVaZ&export=download">
-            </a>
-            <div class="overlay">Bus</div>
-            </div>
-            
-            
-            <div class="grid-item" data-filter="bus">
-            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1Ivon_-3UVc12r7mGE4yZGQmpFRLFSAxN&export=download">
-            <img src="https://drive.google.com/u/0/uc?id=1Ivon_-3UVc12r7mGE4yZGQmpFRLFSAxN&export=download">
-            </a>
-            <div class="overlay">Bus</div>
-            </div>
-            
-            
-            <div class="grid-item" data-filter="car">
-            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1nbj7i05X8K2b0nIgRUnHdSBGqoUraWOB&export=download">
-            <img src="https://drive.google.com/u/0/uc?id=1nbj7i05X8K2b0nIgRUnHdSBGqoUraWOB&export=download">
-            </a>
-            <div class="overlay">Car</div>
-            </div>
-            
-            
-            <div class="grid-item" data-filter="bus">
-            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1boYRgRrvvhY0-mVfMCnns11djZXty3b1&export=download">
-            <img src="https://drive.google.com/u/0/uc?id=1boYRgRrvvhY0-mVfMCnns11djZXty3b1&export=download">
-            </a>
-            <div class="overlay">Bus</div>
-            </div>
-            
-            <div class="grid-item" data-filter="car">
-            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=14s8TliUaHoqzP8q9xbmMBpeJYJzDo_Gf&export=download">
-            <img src="https://drive.google.com/u/0/uc?id=14s8TliUaHoqzP8q9xbmMBpeJYJzDo_Gf&export=download">
-            </a>
-            <div class="overlay">Car</div>
-            </div>
-            
-            
-            <div class="grid-item" data-filter="car">
-            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1Oz_eSTCmx7Zbwv6grFF7PtZPZDzZ_XPP&export=download">
-            <img src="https://drive.google.com/u/0/uc?id=1Oz_eSTCmx7Zbwv6grFF7PtZPZDzZ_XPP&export=download">
-            </a>
-            <div class="overlay">Car</div>
-            </div>
-            
-            
-            <div class="grid-item" data-filter="bike">
-            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1n7ZtvxDX6HpmCFJ6c0HhpeplMmLRBcou&export=download">
-            <img src="https://drive.google.com/u/0/uc?id=1n7ZtvxDX6HpmCFJ6c0HhpeplMmLRBcou&export=download">
-            </a>
-            <div class="overlay">Bike</div>
-            </div>
-            
-            
-            <div class="grid-item" data-filter="car">
-            <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1ihVEiYj1bkklzozNfd89jTf8BAeLfZ-t&export=download">
-            <img src="https://drive.google.com/u/0/uc?id=1ihVEiYj1bkklzozNfd89jTf8BAeLfZ-t&export=download">
-            </a>
-            <div class="overlay">Car</div>
-            </div>
-            
-    
+        <div class="filters filter-button-group">
+            <ul>
+                <li class="active"><a href="javascript:void(0);" data-filter="*">All</a></li>
+                <li><a href="javascript:void(0);" data-filter="bike">Landing Page</a></li>
+                <li><a href="javascript:void(0);" data-filter="bus">E.commerce</a></li>
+                <li><a href="javascript:void(0);" data-filter="car">Paginas web </a></li>
+            </ul>
         </div>
+            <div id="container" class="isotope">
+            
+                <div class="grid-item" data-filter="bike">
+                <a class="popupimg" href="/public/img/porfolio/clothing.png">
+                <img src="/public/img/porfolio/clothing.png">
+                </a>
+                <div class="overlay">Landing Page</div>
+                </div>
+                
+                
+                <div class="grid-item" data-filter="car">
+                <a class="popupimg" href="./public/img/porfolio/shoes.png">
+                <img src="./public/img/porfolio/shoes.png">
+                </a>
+                <div class="overlay">Car</div>
+                </div>
+                
+                
+                <div class="grid-item" data-filter="bike">
+                <a class="popupimg" href="/public/img/porfolio/gestoria.png">
+                <img src="/public/img/porfolio/gestoria.png">
+                </a>
+                <div class="overlay">Landing Page</div>
+                </div>
+                
+                
+                <div class="grid-item" data-filter="car">
+                <a class="popupimg" href="https://drive.google.com/u/0/uc?id=14EqC2fP0xhNfpHmjb3CO_Ax8pe28NJU9&export=download">
+                <img src="https://drive.google.com/u/0/uc?id=14EqC2fP0xhNfpHmjb3CO_Ax8pe28NJU9&export=download">
+                </a>
+                <div class="overlay">Car</div>
+                </div>
+                
+                
+                <div class="grid-item" data-filter="bike">
+                <a class="popupimg" href="/public/img/porfolio/shoes.png">
+                <img src="/public/img/porfolio/shoes.png">
+                </a>
+                <div class="overlay">Landing Page</div>
+                </div>
+                
+                
+                <div class="grid-item" data-filter="bus">
+                <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1xBNwn9Sgedoy3sAVrfuDPYNgl-ArlVaZ&export=download">
+                <img src="https://drive.google.com/u/0/uc?id=1xBNwn9Sgedoy3sAVrfuDPYNgl-ArlVaZ&export=download">
+                </a>
+                <div class="overlay">Bus</div>
+                </div>
+                
+                
+                <div class="grid-item" data-filter="bus">
+                <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1Ivon_-3UVc12r7mGE4yZGQmpFRLFSAxN&export=download">
+                <img src="https://drive.google.com/u/0/uc?id=1Ivon_-3UVc12r7mGE4yZGQmpFRLFSAxN&export=download">
+                </a>
+                <div class="overlay">Bus</div>
+                </div>
+                
+                
+                <div class="grid-item" data-filter="car">
+                <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1nbj7i05X8K2b0nIgRUnHdSBGqoUraWOB&export=download">
+                <img src="https://drive.google.com/u/0/uc?id=1nbj7i05X8K2b0nIgRUnHdSBGqoUraWOB&export=download">
+                </a>
+                <div class="overlay">Car</div>
+                </div>
+                
+                
+                <div class="grid-item" data-filter="bus">
+                <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1boYRgRrvvhY0-mVfMCnns11djZXty3b1&export=download">
+                <img src="https://drive.google.com/u/0/uc?id=1boYRgRrvvhY0-mVfMCnns11djZXty3b1&export=download">
+                </a>
+                <div class="overlay">Bus</div>
+                </div>
+                
+                <div class="grid-item" data-filter="car">
+                <a class="popupimg" href="https://drive.google.com/u/0/uc?id=14s8TliUaHoqzP8q9xbmMBpeJYJzDo_Gf&export=download">
+                <img src="https://drive.google.com/u/0/uc?id=14s8TliUaHoqzP8q9xbmMBpeJYJzDo_Gf&export=download">
+                </a>
+                <div class="overlay">Car</div>
+                </div>
+                
+                
+                <div class="grid-item" data-filter="car">
+                <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1Oz_eSTCmx7Zbwv6grFF7PtZPZDzZ_XPP&export=download">
+                <img src="https://drive.google.com/u/0/uc?id=1Oz_eSTCmx7Zbwv6grFF7PtZPZDzZ_XPP&export=download">
+                </a>
+                <div class="overlay">Car</div>
+                </div>
+                
+                
+                <!-- <div class="grid-item" data-filter="bike">
+                <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1n7ZtvxDX6HpmCFJ6c0HhpeplMmLRBcou&export=download">
+                <img src="https://drive.google.com/u/0/uc?id=1n7ZtvxDX6HpmCFJ6c0HhpeplMmLRBcou&export=download">
+                </a>
+                <div class="overlay">Landing Page</div>
+                </div> -->
+                
+                
+                <div class="grid-item" data-filter="car">
+                <a class="popupimg" href="https://drive.google.com/u/0/uc?id=1ihVEiYj1bkklzozNfd89jTf8BAeLfZ-t&export=download">
+                <img src="https://drive.google.com/u/0/uc?id=1ihVEiYj1bkklzozNfd89jTf8BAeLfZ-t&export=download">
+                </a>
+                <div class="overlay">Car</div>
+                </div>
+                
         
-        <div class="isotope-pager" style="padding-top: 15px; text-align:center;">
             </div>
+            
+            <div class="isotope-pager" style="padding-top: 15px; text-align:center;"></div>
         
 
-
+    </section>
     <!-- SECTION NOSOTROS -->
 
     <div class="text">
         <div>
             <h1>
-                Colaboradores <br />
+                <!-- Colaboradores --> <br />
                 -
             </h1>
         </div>
@@ -259,7 +362,7 @@
     <div class="blog-slider__wrp swiper-wrapper">
       <div class="blog-slider__item swiper-slide">
         <div class="blog-slider__img">
-          <img src="./public/img/img2.jpg" alt="" style="border-radius: 100%;">
+          <img src="./public/img/perfil1.png" alt="" >
         </div>
         <div class="blog-slider__content">
           <span class="blog-slider__code">08 February 2022</span>
@@ -272,7 +375,7 @@
 
       <div class="blog-slider__item swiper-slide">
         <div class="blog-slider__img">
-          <img src="./public/img/img3.jpg" alt="">
+          <img src="./public/img/perfil1.png" alt="">
         </div>
         <div class="blog-slider__content">
           <span class="blog-slider__code">08 February 2022</span>
@@ -299,7 +402,7 @@
   </div>
 
 
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <div class="container-fluid contenedor-fluid">
         <div class="row contenedor">
             <div class="navegacion">
@@ -307,11 +410,11 @@
                 <div>
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/products/category/1">Escolar</a></li>
+                        <li><a href="/products/category/1">About</a></li>
                     </ul>
                     <ul>
-                        <li><a href="/products/category/2">Artística</a></li>
-                        <li><a href="/products/category/3">Oficina</a></li>
+                        <li><a href="/products/category/2">Galeria portfolio</a></li>
+                        <!-- <li><a href="/products/category/3">Oficina</a></li> -->
                     </ul>
                 </div>
             </div>
@@ -339,7 +442,7 @@
                     </ul>
                     <ul>
                         <li><a href="">Teléfono: 011-3142592</a></li>
-                        <li><a href="">Email: artisticadali@gmail.com</a></li>
+                        <li><a href="">Email: admin@gmail.com</a></li>
                     </ul>
                 </div>
                 <!-- <ul class="social">
@@ -364,5 +467,8 @@
     <script src="./public/js/headerHome.js"></script>
     <script src="./public/js/nosotros.js"></script>
     <script src="./public/js/portfolio.js"></script>
+    <script src="./public/js/sliderNosotros.js"></script>
+
+    
 </body>
 </html>
