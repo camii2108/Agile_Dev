@@ -17,6 +17,10 @@
     font-family: var(--font_poppins);
     max-width: 1200px;
     margin: 0 auto;
+    border-radius: 1em;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.5);
+        -webkit-tap-highlight-color: transparent;
+        margin-top: 10px;
 }
 
 .footer ul {
@@ -106,7 +110,7 @@
 .footer .pagos .pagos-images {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -120,7 +124,7 @@
 
 .footer .pagos img {
     width: 100%;
-    max-width: 100px;
+    max-width: 1000px;
 }
 
 
