@@ -305,9 +305,9 @@ nav li {
     nav .menu li {
         margin: 1em 0;
     }
-    form:not(.form-mobile){
+    /* form:not(.form-mobile){
         display: none;
-    }
+    } */
     .form-mobile{
         display: block;
         margin-top: 1.6em;
