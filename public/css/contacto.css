@@ -150,4 +150,15 @@
     width: 100%;
 }
 
-@
+/* @media screen and (max-width: 1000px){
+    .formularioContacto{
+        font-size: 50%;
+    }
+} */
+
+@media  screen and (max-width: 520px) {
+    .contact .formularioContacto .input-box .input-field input, .contact .formularioContacto .textarea-field textarea {
+        padding: 1.1rem;
+        font-size: 1.1rem;
+    }
+}
