@@ -307,7 +307,7 @@ nav li {
     }
     form:not(.form-mobile){
         display: none;
-    }
+    } 
     .form-mobile{
         display: block;
         margin-top: 1.6em;
