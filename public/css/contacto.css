@@ -20,27 +20,27 @@
     padding-bottom: 7rem;
 }
 
-.contact form{
+.contact .formularioContacto{
     max-width: 70rem;
     margin: 0 auto;
     text-align: center;
 }
 
-.contact form .input-box{
+.contact .formularioContacto .input-box{
     position: relative;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.contact form .input-box .input-field{
+.contact .formularioContacto .input-box .input-field{
     position: relative;
     width: 49%;
     margin: .8rem 0;
 }
 
-.contact form .input-box .input-field input,
-.contact form .textarea-field textarea{
+.contact .formularioContacto .input-box .input-field input,
+.contact .formularioContacto .textarea-field textarea{
     width: 100%;
     height: 100%;
     padding: 1.5rem;
@@ -51,12 +51,12 @@
     border: .2rem solid #00abf0;   
 }
 
-.contact form .input-box .input-field input::placeholder,
-.contact form .textarea-field textarea::placeholder{
+.contact .formularioContacto .input-box .input-field input::placeholder,
+.contact .formularioContacto .textarea-field textarea::placeholder{
     color: #ededed;
 }
 
-.contact form .focus {
+.contact .formularioContacto .focus {
     position: absolute;
     top: 0;
     left: 0;
@@ -68,24 +68,24 @@
     transition: .5s;        
 }
 
-.contact form .input-box .input-field input:focus~.focus,
-.contact form .input-box .input-field input:valid~.focus,
-.contact form .textarea-field textarea:focus~.focus,
-.contact form .textarea-field textarea:valid~.focus{
+.contact .formularioContacto .input-box .input-field input:focus~.focus,
+.contact .formularioContacto .input-box .input-field input:valid~.focus,
+.contact .formularioContacto .textarea-field textarea:focus~.focus,
+.contact .formularioContacto .textarea-field textarea:valid~.focus{
     width: 100%;
 }
 
-.contact form .textarea-field{
+.contact .formularioContacto .textarea-field{
     position: relative;
     margin: .8rem 0 2.7rem;
     display: flex;
 }
 
-.contact form .textarea-field textarea{
+.contact .formularioContacto .textarea-field textarea{
     resize: none;
 }
 
-.contact form .btn-box.btns .btn{
+.contact .formularioContacto .btn-box.btns .btn{
     cursor: pointer;
 }
 
@@ -150,8 +150,15 @@
     width: 100%;
 }
 
-@media(max-width: 768px){
-    .section__title{
-        font-size: 55%;
+@media screen and (max-width: 1000px){
+    .formularioContacto{
+        font-size: 50%;
+    }
+}
+
+@media  screen and (max-width: 520px) {
+    .contact .formularioContacto .input-box .input-field input, .contact .formularioContacto .textarea-field textarea {
+        padding: 1.1rem;
+        font-size: 1.1rem;
     }
 }
