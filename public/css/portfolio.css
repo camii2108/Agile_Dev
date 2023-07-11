@@ -29,7 +29,6 @@ box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.5);
 .grid-item {
 display: inline-block;
     height: 259px;
-
     overflow: hidden;
     text-align: center;
     width: 320px;
@@ -63,7 +62,7 @@ display: inline-block;
     box-shadow: -1px 1px 11px rgba(0,0,0,.4);
     margin: 0 40px;
     border-radius: 30px;
-	background-color: #00C48E;
+	background-color: #5171ff;
 }
 
 .filters li {
@@ -87,8 +86,8 @@ display: inline-block;
 }
 
 .filters li.active a{
-	color: #e3ca66;
-	border: 1px solid #e3ca66;
+	color: #fbfbfd;
+	border: 1px solid #6467ef;
 	border-radius: 15px;
 	box-shadow: -1px 1px 11px rgba(0,0,0,.4);
 	padding: 10px 25px;
@@ -122,11 +121,11 @@ display: inline-block;
 }
 
 .isotope-pager .active{
-  color: #e3ca66 !important;
+  color: #6467ef!important;
     box-shadow: -1px 1px 10px 5px rgba(0,0,0,.1);
     border-radius: 25px;
-    background-color: #161616;
-    border: 1px dotted #e3ca66;
+    background-color: #6467ef;
+    border: 1px dotted #6467ef;
 }
 
 .isotope-pager .prev{
